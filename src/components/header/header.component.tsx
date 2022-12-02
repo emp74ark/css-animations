@@ -9,6 +9,7 @@ export const HeaderComponent: FC = () => {
         <nav>
           <ul>
             <li className={style.navlink}><NavLink to={'/'}>Home</NavLink></li>
+            <li className={style.navlink}><NavLink to={'/sliders'}>Sliders</NavLink></li>
             <li className={style.navlink}><NavLink to={'/spinners'}>Spinners</NavLink></li>
           </ul>
         </nav>

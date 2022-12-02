@@ -1,0 +1,80 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.slider {
+  width: 80%;
+  /*max-width: 80rem;*/
+  height: 25rem;
+  margin: 1rem;
+  background: greenyellow;
+  border-radius: 2rem;
+  overflow: hidden;
+  position: relative;
+  box-shadow: 0 0 .5rem #395b64;
+}
+
+.cards{
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: scroll;
+  scroll-behavior: smooth;
+}
+
+.slide {
+  width: 100%;
+  height: 25rem;
+  display: flex;
+  flex: none;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.slide a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 4rem;
+  color: #e7f6f2;
+  text-decoration: none;
+}
+
+.content {
+  width: calc(100% - 10rem);
+  font-size: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.prev,
+.next {
+  background: #000;
+  opacity: .5;
+  width: 5rem;
+  box-shadow: 0 0 .5rem #000;
+}
+
+.dots {
+  position: absolute;
+  bottom: 1rem;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+.dot {
+  background: #ffffff;
+  opacity: .5;
+  display: inline-block;
+  margin: 1rem;
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 50%;
+}
+
+.dot:active {
+  background: #a5c9ca;
+}
