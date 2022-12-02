@@ -1,0 +1,15 @@
+.logo {
+  font-size: 1.4rem;
+  color: #e7f6f2;
+}
+
+.navlink {
+  margin: 0 1rem;
+  display: inline-block;
+  font-size: 1.4rem;
+}
+
+.navlink a {
+  color: #e7f6f2;
+  text-decoration: none;
+}
