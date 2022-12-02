@@ -1,4 +1,8 @@
 /*https://colorhunt.co/palette/2c3333395b64a5c9cae7f6f2*/
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-size: 10px;
   margin: 0;
@@ -8,6 +12,12 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+h1,
+h2 {
+  margin: 0;
 }
 
 header {
@@ -20,24 +30,20 @@ header {
   align-items: center;
 }
 main {
-  height: calc(100vh - 9rem);
+  min-height: calc(100vh - 10rem);
   background: #E7F6F2;
   color: #2C3333;
   margin: 0;
-  padding: 1rem 2rem;
+  padding: 0;
 }
 footer {
   margin: 0;
   padding: 1rem 2rem;
-  height: 1rem;
+  height: 2rem;
   background: #395B64;
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-h1 {
-  color: #A5C9CA;
 }
 
 code {
