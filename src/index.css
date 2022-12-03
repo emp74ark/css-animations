@@ -19,6 +19,11 @@ h1,
 h2 {
   margin: 0;
 }
+h1 {
+  font-size: 2rem;
+  width: 100%;
+  text-align: center;
+}
 
 header {
   margin: 0;
@@ -30,7 +35,7 @@ header {
   align-items: center;
 }
 main {
-  min-height: calc(100vh - 10rem);
+  min-height: calc(100vh - 8rem);
   background: #E7F6F2;
   color: #2C3333;
   margin: 0;

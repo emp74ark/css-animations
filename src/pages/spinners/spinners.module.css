@@ -1,4 +1,8 @@
 .spinners {
+  margin: 1rem auto;
+  width: 20rem;
   display: flex;
+  flex-direction: column;
   gap: 2rem;
+  align-items: center;
 }
