@@ -1,0 +1,14 @@
+.cards__list {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.cards__list a {
+  color: #2c3333;
+  font-size: 2rem;
+  text-decoration: none;
+}

@@ -8,6 +8,8 @@ import {HomeComponent} from './pages/home/home.component';
 import {SpinnersComponent} from './pages/spinners/spinners.component';
 import {UfoComponent} from './pages/ufo/ufo.component';
 import {SlidersComponent} from './pages/sliders/sliders.component';
+import {CardsComponent} from './pages/cards/cards.component';
+import {CardShadow} from './components/card/cardShadow';
 
 function App() {
   return (
@@ -16,6 +18,8 @@ function App() {
         <main>
           <Routes>
             <Route key={'Home'} path={'/'} element={<HomeComponent />} />
+            <Route key={'Cards'} path={'/cards'} element={<CardsComponent />} />
+            <Route key={'ShadowCards'} path={'/cards/shadow'} element={<CardShadow />} />
             <Route key={'Sliders'} path={'/sliders'} element={<SlidersComponent />} />
             <Route key={'Spinners'} path={'/spinners'} element={<SpinnersComponent />} />
             <Route key={'UFO'} path={'*'} element={<UfoComponent />} />
