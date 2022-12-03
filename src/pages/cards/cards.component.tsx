@@ -8,6 +8,7 @@ export const CardsComponent: FC = () => {
         <h1>Cards</h1>
         <div className={style.cards__list}>
           <NavLink to={'/cards/shadow'}>Shadow cards</NavLink>
+          <NavLink to={'/cards/flip'}>Flip cards</NavLink>
         </div>
       </>
   );
