@@ -14,7 +14,7 @@ import {CardFlip} from './components/card/cardFlip';
 
 function App() {
   return (
-      <BrowserRouter>
+      <BrowserRouter basename={'/css-animations'}>
         <HeaderComponent />
         <main>
           <Routes>
